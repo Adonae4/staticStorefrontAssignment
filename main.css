@@ -1,0 +1,69 @@
+.background {
+    background-color: skyblue;
+}
+
+div.clear {
+  clear: both;
+  font-size: 1%;
+}
+.topnav {
+    margin: 30px;
+    height: 65px;
+    border: 1px solid rgba(243, 108, 255, 0.767);
+    background: rgb(156,113,132);
+    background: radial-gradient(circle, rgba(156,113,132,1) 0%, rgba(148,187,233,1) 100%);
+    overflow: hidden;
+
+  }
+  
+  .topnav a {
+        float: none;
+        position: relative;
+        top: 22px;
+        color: #f2f2f2;
+        text-align: center;      
+        padding: 55px;
+        text-decoration: none;
+        font-size: 27px;
+     
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgba(159, 125, 163, 0.767); 
+    color: white;
+    font-style: 'WaltographRegular';
+  }
+
+  .topnav input[type=text] {
+      float: right;
+      padding: 2px;
+      border: 7px;
+      margin-top: 2px;
+      left: 5px;
+      display: block;
+      cursor: pointer;
+     
+}
+
+.carousel-inner {
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+   
+    }
+.footer {
+  height: 25px;
+  width: 100%;
+  background-color:radial-gradient(circle, rgba(156,113,132,1) 0%, rgba(148,187,233,1) 100%);
+  font-size: 1.2em;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em 2.0em;
+}
+
+
