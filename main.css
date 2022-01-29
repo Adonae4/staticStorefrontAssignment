@@ -7,9 +7,9 @@ div.clear {
   font-size: 1%;
 }
 .topnav {
-    margin: 30px;
+    margin: 3px;
     height: 65px;
-    border: 1px solid rgba(243, 108, 255, 0.767);
+    border: 2px solid rgba(243, 108, 255, 0.767);
     background: rgb(156,113,132);
     background: radial-gradient(circle, rgba(156,113,132,1) 0%, rgba(148,187,233,1) 100%);
     overflow: hidden;
@@ -58,12 +58,13 @@ div.clear {
     }
 .footer {
   height: 25px;
-  width: 100%;
+  width: 80px;
   background-color:radial-gradient(circle, rgba(156,113,132,1) 0%, rgba(148,187,233,1) 100%);
   font-size: 1.2em;
   color: #fff;
   text-align: center;
   padding: 1.5em 2.0em;
 }
-
-
+.container-p4 {
+ width: 100px;
+}
